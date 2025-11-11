@@ -1,0 +1,23 @@
+[general]
+name=SmartSnap - Geometry Snap & Topology Cleaner
+qgisMinimumVersion=3.16
+version=1.0.0
+
+description=Automatically snaps, fixes, and cleans vector geometries by aligning nearby vertices and removing topological errors. Ideal for road networks, boundaries, utilities, and survey datasets.
+
+about=SmartSnap automatically detects and adjusts misaligned vertices so features within a specified tolerance become spatially coincident. It also removes duplicate geometries and cleans dangling short segments. Perfect for preparing datasets for network analysis, spatial modeling, infrastructure mapping, and digitization QA/QC workflows.
+
+author=Sneha
+email=snehadey15sd@gmail.com
+
+category=Vector
+icon=icon.png
+
+homepage=
+repository=
+tracker=
+
+tags=snap,snapping,clean,fix,geometry,topology,repair,network,lines,overshoot,undershoot,duplicate,vertex,align,road,boundary,infrastructure,survey,editing,preprocessing,quality
+
+experimental=False
+deprecated=False

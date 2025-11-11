@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SmartSnapDialogBase</class>
+ <widget class="QDialog" name="SmartSnapDialogBase">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>250</width>
+    <height>200</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SmartSnap - Vertex Integration Tool</string>
+  </property>
+  <layout class="QVBoxLayout">
+   <item>
+    <widget class="QLabel" name="labelLayer">
+     <property name="text">
+      <string>Select Input Layer:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="layerComboBox"/>
+   </item>
+
+   <item>
+    <widget class="QLabel" name="labelTolerance">
+     <property name="text">
+      <string>XY Tolerance:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QDoubleSpinBox" name="toleranceSpinBox">
+     <property name="decimals">
+      <number>6</number>
+     </property>
+     <property name="value">
+      <double>0.000100</double>
+     </property>
+    </widget>
+   </item>
+
+   <item>
+    <widget class="QLabel" name="labelUnits">
+     <property name="text">
+      <string>Units:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="unitsComboBox">
+     <item>
+      <property name="text">
+       <string>meter</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>feet</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>degree</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+
+   <item>
+    <widget class="QPushButton" name="runButton">
+     <property name="text">
+      <string>Run SmartSnap</string>
+     </property>
+    </widget>
+   </item>
+
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
